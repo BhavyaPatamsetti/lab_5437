@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>list tags</title>
+  </head>
+  <body>
+    <h1>
+      <p><b>LIST TAG</b></p>
+    </h1>
+    <h2>UNORDERED LIST</h2>
+    <p>This prints content point wise.</p>
+    <br />
+    <h4><b>HOBBIES</b></h4>
+    <ul>
+      <li>Reading Novels</li>
+      <li>Listening to Music</li>
+      <li>Playing Badminton</li>
+    </ul>
+    <h4><b>Nested List</b></h4>
+    <ul>
+      <li>first item</li>
+      <li>
+        second item
+        <!-- Look, the closing </li> tag is not placed here! -->
+        <ul>
+          <li>second item first subitem</li>
+          <li>
+            second item second subitem
+            <!-- Same for the second nested unordered list! -->
+            <ul>
+              <li>second item second subitem first sub-subitem</li>
+              <li>second item second subitem second sub-subitem</li>
+              <li>second item second subitem third sub-subitem</li>
+            </ul>
+          </li>
+          <!-- Closing </li> tag for the li that
+                  contains the third unordered list -->
+          <li>second item third subitem</li>
+        </ul>
+        <!-- Here is the closing </li> tag -->
+      </li>
+      <li>third item</li>
+    </ul>
+    <h2>ORDERED LIST</h2>
+    <p>This prints all the with numbers.</p>
+    <br />
+    <ol>
+      <h4>Subjects In ||-||</h4>
+      <li>DBMS</li>
+      <li>DSP</li>
+      <li>OS</li>
+      <li>ENGLISH - ||</li>
+      <li>DM</li>
+    </ol>
+  </body>
+</html>

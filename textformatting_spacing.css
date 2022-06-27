@@ -1,0 +1,32 @@
+p {
+    text-indent: 50px;
+  }
+
+h1 {
+    letter-spacing: 5px;
+  }
+  
+h2 {
+    letter-spacing: -2px;
+  }
+  p.small {
+    line-height: 0.8;
+  }
+  
+  p.big {
+    line-height: 1.8;
+  }
+
+  p.one {
+    word-spacing: 10px;
+  }
+  
+  p.two {
+    word-spacing: -2px;
+  }
+  p {
+    white-space: nowrap;
+  }
+  body{
+    background-color: olive;
+  }
